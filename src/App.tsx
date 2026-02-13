@@ -1,7 +1,6 @@
-'use client';
 import { useState } from 'react';
 
-export default function Page() {
+export default function App() {
 	const [noCount, setNoCount] = useState(0);
 	const [yesPressed, setYesPressed] = useState(false);
 	const yesButtonSize = noCount * 20 + 16;
